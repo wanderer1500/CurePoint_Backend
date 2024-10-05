@@ -6,6 +6,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const MongoStore = require('connect-mongo');
+const session = require("express-session");
 // const PORT = 8080;
 
 const dbUrl = process.env.ATLASDB_URL;
